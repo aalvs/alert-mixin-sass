@@ -49,6 +49,8 @@ Cor do fundo: amarelo
 <br/>
 <a href='https://sass-lang.com/'>Sass</a>
 <br/>
+<a href='https://www.sassmeister.com/'>Sass Meister</a>
+<br/>
 <a href='https://code.visualstudio.com/'>Visual Studio Code</a>
 <br/>
 
