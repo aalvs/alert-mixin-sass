@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin msg ($fontColor, $fontSize, $bgColor, $borderColor) {
+    color: $fontColor;
+    font-size: $fontSize;
+    background-color: $bgColor;
+    border: 1px solid $borderColor;
+    font-weight: 400;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 300px;
+    height: 48px;
+    padding-left:15px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.msgErro {
+    @include msg(#721c24, 12px, #f8d7da, #f5c6cb);
+    span {
+        strong {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
+.msgSucesso {
+    @include msg(#155724, 12px, #d4edda, #c3e6cb);
+    span {
+        strong {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
+.msgDestaque {
+    @include msg(#004085, 12px, #cce5ff, #b8daff);
+    span {
+        strong {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
+.msgAlerta {
+    @include msg(#856404, 12px, #fff3cd, #ffeeba);
+    span {
+        strong {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}

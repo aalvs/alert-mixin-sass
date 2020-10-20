@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.msgErro {
+  color: #721c24;
+  font-size: 12px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  font-weight: 400;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 300px;
+  height: 48px;
+  padding-left: 15px;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.msgErro span strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.msgSucesso {
+  color: #155724;
+  font-size: 12px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  font-weight: 400;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 300px;
+  height: 48px;
+  padding-left: 15px;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.msgSucesso span strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.msgDestaque {
+  color: #004085;
+  font-size: 12px;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  font-weight: 400;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 300px;
+  height: 48px;
+  padding-left: 15px;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.msgDestaque span strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.msgAlerta {
+  color: #856404;
+  font-size: 12px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  font-weight: 400;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 300px;
+  height: 48px;
+  padding-left: 15px;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.msgAlerta span strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=mixins.css.map */
